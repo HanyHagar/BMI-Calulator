@@ -35,7 +35,24 @@ dependencies:
   cupertino_icons: ^1.0.6
   bloc: ^8.1.4
   flutter_bloc: ^8.1.5
-
+  flutter_launcher_icons:
+flutter_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: 'assets/BMI Logo.png'
+  windows:
+    generate: true
+    image_path: 'assets/BMI Logo.png'
+  macos:
+    generate: true
+    image_path: 'assets/BMI Logo.png'
+  linux:
+    generate: true
+    image_path: 'assets/BMI Logo.png'
+  image_path: 'assets/BMI Logo.png' # Path to your icon file
+  remove_alpha_ios: true        # Removes alpha channel for iOS icons (recommended)
 dev_dependencies:
   flutter_test:
     sdk: flutter
